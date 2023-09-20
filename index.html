@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link href="setup.css" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+
+
+    <main>
+        <section class="profile">
+            <div class="prof">
+                <img id="profile" src="./images/image-jeremy.png">
+                <div class="report_div">
+                    <span>Report for</span>
+                    <p>Jeremy Robson</p>
+                </div>
+                
+            </div>
+            <div class="specific_time">
+                <ul class="period">
+                    <li class="when D">Daily</li>
+                    <li class="when W">Weekly</li>
+                    <li class="when Y">Monthly</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="background1">
+
+                <!-- <img src="./images/icon-work.svg"> -->
+            </div>
+            <div class="details1">
+                <div class="work_head">
+                    <p>Work</p>
+                    <div class="menu">
+                        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                    </div>
+                    
+                </div>
+
+                <div class="time_div">
+                    <div class="time">
+                        <span id="current_work"><span id="current_Work">32</span>hrs</span>
+                    </div>
+    
+                    <p id ="prevoius_work">Previous - <span id="Previous_w">7</span>7hrs</p>
+                </div>
+
+                
+
+            </div>
+
+        </section>
+
+
+        <section class="play">
+            <div class="background2">
+                <!-- <img class="game_play" src="/images/icon-play.svg"> -->
+            </div>
+
+            <div class="details2">
+                <div class="play_head">
+                    <p>Play</p>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                    
+                </div>
+
+                <div class="play_time_div">
+                    <div class="play_hour">
+                        <span ><span id="current_play">5</span>hrs</span>
+                    </div>
+                    <p id="play_previousweek">last Week-<span id="Previous_p">8</span>hrs</p>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="study">
+            <div class="background3">
+                <!-- <img src="./images/icon-study.svg"> -->
+            </div>
+            <div class="details3">
+                <div class="study_head">
+                    <p>Study</p>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+
+                <div class="study_time_div">
+                    <div class="study_hour">
+                        <span> <span id="current_study">4</span>hrs</span>
+                    </div>
+                    <p id="sudy_previousweek">Last Week - <span id="previous_s">19</span>hrs</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="exercise">
+            <div class="background4">
+                <!-- <img src="./images/icon-exercise.svg"> -->
+            </div>
+            <div class="details4">
+                <div class="exercise_head">
+                    <p>Exercise</p> 
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+
+                <div class="exercise_time_div">
+                    <div class="exercise_hour">
+                        <span><span id="current_exercise">4</span> hrs</span>
+                    </div>
+                    <p id="exersice_previousweek">Last Week - <span id="previous_exercise">5</span>hrs</p>
+                </div>
+                
+            </div>
+        </section>
+        <section class="social">
+            <div class="background5">
+                <!-- <img src="./images/icon-social.svg"> -->
+            </div>
+            <div class="details5">
+                <div class="social_head">
+                    <p>Social</p>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+
+                <div class="social_time_div">
+                    <div class="social_hour">
+                        <span><span id ="current_social">5</span> hrs</span>
+                    </div>
+                    <p id="social_previousweek">Last Week - <span id="previous_social">10</span>hrs</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="selfcare">
+            <div class="background6">
+                <!-- <img src="./images/icon-self-care.svg"> -->
+            </div>
+            <div class="details6">
+                <div class="selfcare_head">
+                    <p>SelfCare</p>
+                    <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+                </div>
+
+                <div class="selfcare_time_div">
+                    <div class="selfcare_hour">
+                        <span> <span id="current_selfcare">2</span> hrs</span>
+                    </div>
+                    <p id="selfcare_previousweek">Last Week - <span id="previous_selfcare">2</span>hrs</p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Oluwatimileyin</a>.
+  </div>
+
+  <script src="setup.js"></script>
+</body>
+</html>
